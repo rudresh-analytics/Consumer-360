@@ -1,0 +1,8 @@
+customer_id,Recency,Frequency,Monetary,R,F,M,RFM_Score,RFM_Total,Segment,CLV_Basic,avg_order_value,CLV_Projected,customer_name,city,state
+1,10,3,84000.0,5,5,5,555,15,Champions,252000.0,28000.0,1008000.0,Amit Shah,Ahmedabad,Gujarat
+2,7,2,30000.0,5,5,4,554,14,Champions,60000.0,15000.0,360000.0,Priya Mehta,Mumbai,Maharashtra
+3,31,1,6000.0,1,1,2,112,4,Churn Risk,6000.0,6000.0,72000.0,Rahul Verma,Delhi,Delhi
+4,22,1,5000.0,1,1,1,111,3,Churn Risk,5000.0,5000.0,60000.0,Sneha Iyer,Chennai,Tamil Nadu
+5,17,1,60000.0,2,2,5,225,9,Churn Risk,60000.0,60000.0,720000.0,Karan Patel,Surat,Gujarat
+6,14,1,6000.0,3,3,2,332,8,Loyal Customers,6000.0,6000.0,72000.0,Neha Singh,Lucknow,UP
+7,12,1,3000.0,4,4,1,441,9,Champions,3000.0,3000.0,36000.0,Rohit Sharma,Pune,Maharashtra
