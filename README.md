@@ -35,8 +35,7 @@ It helps in understanding customer behavior, segmentation, and business insights
 ---
 
 ## 📊 Dashboard Preview
-
-(Add your image here later)
+![Dashboard](dashboard.png.jpeg)
 
 ---
 
