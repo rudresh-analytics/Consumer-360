@@ -31,11 +31,11 @@ The project focuses on identifying high-value customers, understanding churn pat
 
 ```bash
 Consumer-360-Analytics/
-│── Excel/
-│── Power BI/
-│── Python/
+│── Data/
 │── SQL/
-│── Image/
+│── Python/
+│── Dashboard/
+│── Images/
 │── README.md
 ```
 
@@ -101,4 +101,6 @@ Consumer-360-Analytics/
 This project demonstrates a complete data analytics pipeline from raw data to business insights.
 
 ---
+
+
 
