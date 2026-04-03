@@ -2,59 +2,103 @@
 
 ## 📌 Project Overview
 
-This project analyzes customer data using SQL, Python, and Power BI.
-It helps in understanding customer behavior, segmentation, and business insights.
+This is an end-to-end data analytics project designed to analyze customer behavior, segmentation, and business performance using SQL, Python, and Power BI.
+
+The project focuses on identifying high-value customers, understanding churn patterns, and generating actionable business insights.
 
 ---
 
 ## 🎯 Objectives
 
-* Identify high-value customers
-* Analyze churn risk
-* Calculate customer lifetime value (CLV)
-* Perform cohort analysis
-* Perform market basket analysis
+* Perform customer segmentation using RFM analysis
+* Identify churn-risk and loyal customers
+* Analyze customer lifetime value (CLV)
+* Perform cohort analysis for retention tracking
+* Discover product associations using market basket analysis
 
 ---
 
-## 🛠 Tools Used
+## 🛠️ Tools & Technologies
 
-* SQL
-* Python
+* SQL (MySQL)
+* Python (Pandas, Matplotlib, Mlxtend)
 * Power BI
+* Data Visualization & Analytics
 
 ---
 
-## 📂 Project Files
+## 📂 Project Structure
 
-* SQL file for database creation
-* Python script for analysis
-* CSV files (output data)
-* Power BI dashboard
+```bash
+Consumer-360-Analytics/
+│── Excel/
+│── Power BI/
+│── Python/
+│── SQL/
+│── Image/
+│── README.md
+```
 
 ---
 
-## 📊 Dashboard Preview
+## 🔄 Workflow
+
+1. Data extracted and transformed using SQL
+2. Data analysis and feature engineering done in Python
+3. RFM segmentation and CLV calculation performed
+4. Cohort and Market Basket analysis implemented
+5. Final insights visualized in Power BI dashboard
+
+---
+
+## 📊 Key Features
+
+* RFM Segmentation (Champions, Loyal, Churn Risk)
+* Customer Lifetime Value (CLV)
+* Cohort Retention Analysis
+* Market Basket Analysis (Product combinations)
+* Revenue & Customer Insights Dashboard
+
+---
+
+## 📷 Dashboard Preview
+
 ![Dashboard](Dashboard.png)
 
 ---
 
 ## 🔍 Key Insights
 
-* Champions customers generate highest revenue
-* Churn risk customers identified
-* Customer retention analyzed using cohort
+* Champions contribute highest revenue
+* Churn risk customers identified using recency & frequency
+* Repeat purchase behavior visible in cohort analysis
+* Product combinations help in cross-selling strategies
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Run the Project
 
-1. Run SQL file
-2. Run Python file
-3. Open Power BI dashboard
+### Step 1: Run SQL Script
+
+* Execute `consumer_360.sql` to create database and tables
+
+### Step 2: Run Python Script
+
+* Install dependencies:
+  pip install pandas matplotlib pymysql mlxtend
+
+* Run:
+  python rfm_analysis.py
+
+### Step 3: Open Dashboard
+
+* Open `.pbix` file in Power BI Desktop
 
 ---
 
 ## 📌 Conclusion
 
-This project shows complete data analysis from raw data to insights.
+This project demonstrates a complete data analytics pipeline from raw data to business insights.
+
+---
+
